@@ -1,0 +1,37 @@
+#include<stdio.h>
+#define n 3
+void interchangeFirstLast(int mat[][n])
+{
+    for (int i = 0; i < n; i++)
+    {
+        int t=mat[i][0];
+        mat[i][0]=mat[i][n-1];
+        mat[i][n-1]=t;
+    }
+    
+}
+int main()
+{
+    int mat[n][n]={{1,2,3},{4,5,6},{7,8,9}};
+    printf("Input Matrix\n");
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < n; j++)
+        {
+            printf("%d ",mat[i][j]);
+        }
+        printf("\n");
+    }
+    interchangeFirstLast(mat);
+    printf("Output Matrix\n");
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < n; j++)
+        {
+            printf("%d ",mat[i][j]);
+        }
+        printf("\n");
+    }
+    
+    return 0;
+}
