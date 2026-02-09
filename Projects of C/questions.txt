@@ -1,0 +1,32 @@
+What is the capital city of India?
+Delhi
+Mumbai
+Kolkata
+Chennai
+A
+10
+1000
+which Indian city is known as the "Silicon Valley of India"?
+Hydrabad
+Bangalore
+Chennai
+Mumbai
+B
+10
+2000
+Who wrote the national anthem of India?
+Rabindranath Tagore
+Bankim Chandra Chatterjee
+Mahatma Gandhi
+Sarojini Naidu
+A
+10
+3000
+What is the main ingredient in the traditional Indian dish "Birayani"?
+Wheat
+Rice 
+Barley
+Corn
+B
+10
+5000

@@ -1,0 +1,30 @@
+#include<stdio.h>
+#include<string.h>
+int isPalendrome(char str[])
+{
+    int low=0;
+    int high=strlen(str)-1;
+    while (low<high)
+    {
+        if (str[low]!=str[high])
+        {
+            return 0;
+            // not a palendrome
+        }
+        low++;
+        // move the low index forward
+        high--;
+        // move the high index backwards 
+    }
+    return 1;
+    // is a palindrome
+}
+int main()
+{
+    char str[]="abbba";
+    char str1[]="abcded";
+    printf("%s is palindrome %d\n",str,isPalendrome(str));
+    printf("%s is palindrome %d\n",str1,isPalendrome(str1));
+
+    return 0;
+}
